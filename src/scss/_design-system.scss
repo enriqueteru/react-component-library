@@ -1,0 +1,186 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ //base
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//units
+$unit: 5px;
+$unit2: 5px * 2;
+$unit3: 5px * 3;
+$unit5: 5px * 5;
+$unit6: 5px * 6;
+$unit7: 5px * 7;
+$unit8: 5px * 8;
+$unit4: 5px * 9;
+$unit9: 5px * 9;
+$unit10: 5px * 10;
+
+
+// MARGIND AND PADDINGS
+.mt-1 {
+    margin-top: $unit;
+}
+.mt-2 {
+    margin-top: $unit2;
+}
+.mt-3 {
+    margin-top: $unit3;
+}
+.mt-4 {
+    margin-top: $unit4;
+}
+.mt-5 {
+    margin-top: $unit5;
+}
+.mt-6 {
+    margin-top: $unit6;
+}
+.mt-7 {
+    margin-top: $unit7;
+}
+.mt-8 {
+    margin-top: $unit8;
+}
+.mt-9 {
+    margin-top: $unit9;
+}
+.mt-10 {
+    margin-top: $unit10;
+}
+
+
+.mb-1 {
+    margin-bottom: $unit;
+}
+.mb-2 {
+    margin-bottom: $unit2;
+}
+.mb-3 {
+    margin-bottom: $unit3;
+}
+.mb-4 {
+    margin-bottom: $unit4;
+}
+.mb-5 {
+    margin-bottom: $unit5;
+}
+.mb-6 {
+    margin-bottom: $unit6;
+}
+.mb-7 {
+    margin-bottom: $unit7;
+}
+.mb-8 {
+    margin-bottom: $unit8;
+}
+.mb-9 {
+    margin-bottom: $unit9;
+}
+.mb-10 {
+    margin-bottom: $unit10;
+}
+
+
+
+.mt-1 {
+    margin-top: $unit;
+}
+.mt-2 {
+    margin-top: $unit2;
+}
+.mt-3 {
+    margin-top: $unit3;
+}
+.mt-4 {
+    margin-top: $unit4;
+}
+.mt-5 {
+    margin-top: $unit5;
+}
+.mt-6 {
+    margin-top: $unit6;
+}
+.mt-7 {
+    margin-top: $unit7;
+}
+.mt-8 {
+    margin-top: $unit8;
+}
+.mt-9 {
+    margin-top: $unit9;
+}
+.mt-10 {
+    margin-top: $unit10;
+}
+
+
+
+.pt-1 {
+    padding-top: $unit;
+}
+.pt-2 {
+    padding-top: $unit2;
+}
+.pt-3 {
+    padding-top: $unit3;
+}
+.pt-4 {
+    padding-top: $unit4;
+}
+.pt-5 {
+    padding-top: $unit5;
+}
+.pt-6 {
+    padding-top: $unit6;
+}
+.pt-7 {
+    padding-top: $unit7;
+}
+.pt-8 {
+    padding-top: $unit8;
+}
+.pt-9 {
+    padding-top: $unit9;
+}
+.pt-10 {
+    padding-top: $unit10;
+}
+
+
+.pb-1 {
+    padding-bottom: $unit;
+}
+.pb-2 {
+    padding-bottom: $unit2;
+}
+.pb-3 {
+    padding-bottom: $unit3;
+}
+.pb-4 {
+    padding-bottom: $unit4;
+}
+.pb-5 {
+    padding-bottom: $unit5;
+}
+.pb-6 {
+    padding-bottom: $unit6;
+}
+.pb-7 {
+    padding-bottom: $unit7;
+}
+.pb-8 {
+    padding-bottom: $unit8;
+}
+.pb-9 {
+    padding-bottom: $unit9;
+}
+.pb-10 {
+    padding-bottom: $unit10;
+}
+
+
