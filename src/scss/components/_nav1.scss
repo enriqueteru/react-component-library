@@ -1,0 +1,25 @@
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    height: 5%;
+    padding: 0% 9%;
+
+
+    &__items{
+        font-size: 17px;
+        display: inline-flex;
+        padding: $unit3;
+        transition: 200ms;
+
+        &:hover{
+            transition: 200ms;
+            color:$primary;
+            cursor: pointer;
+        }
+
+    }
+}

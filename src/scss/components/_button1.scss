@@ -1,0 +1,16 @@
+.button1{
+    background-color: $primary;
+    padding: 10px 20px;
+    color: white;
+    min-height: 50px;
+    border: none;
+    transition: 200ms;
+    font-size: 17px;
+    font-weight: 200;
+
+    &:hover{ 
+        transition: 200ms;
+        filter: brightness(85%);
+        cursor: pointer;
+    }
+}
