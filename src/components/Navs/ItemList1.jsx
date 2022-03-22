@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemList1 = ({title}) => {
   return (
-<li className='nav1__items'> {title} </li>
+<li  className='nav1__items'> {title} </li>
   )
 }
 

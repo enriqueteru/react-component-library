@@ -20,6 +20,12 @@ content={hero.content}
 color={hero.color} 
 img={hero.img} 
 />
+<Hero1 
+title={hero.title} 
+content={hero.content} 
+color={hero.color} 
+img={hero.img} 
+/>
 
 
 </>)
