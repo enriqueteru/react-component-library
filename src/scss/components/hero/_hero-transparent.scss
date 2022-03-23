@@ -1,0 +1,19 @@
+.hero-trasnparent{
+height: 80vh;
+background:
+    linear-gradient(to right, 
+    rgba(255,255,255,0), 
+    rgba(255,255,255,1)), 
+    url('../../../../public/assets/img/hero-img.jpg');
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+&__h2 {
+
+    font-weight: 200;
+    font-size: 40px;
+    margin: $unit5 0;
+}
+}

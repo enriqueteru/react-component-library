@@ -1,0 +1,53 @@
+.section1 {
+    height: 80vh;
+    background: url("../../../../public/assets/pattern-blue.svg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__center-content {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background-color: #000;
+        background-image: url("../../../../public/assets/img/hero3-bg.svg");
+        background-position: 100% 0%;
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 70%;
+        width: 80%;
+
+        &-wrapper {
+            width: 30%;
+            margin-left: $unit8 ;
+
+            &-h2 {
+                margin: 18px 0;
+                font-weight: 200;
+                font-size: 45px;
+                color: white;
+                padding-left: 5%;
+                line-height: 46px;
+            }
+            &-h5 {
+                font-weight: 700;
+                font-size: 15px;
+                letter-spacing: 5px;
+                color: white;
+                padding-left: 5%;
+                line-height: 26px;
+
+            }
+            &-p {
+                font-weight: 200;
+                font-size: 20px;
+                color: white;
+                padding-left: 5%;
+                line-height: 25px;
+
+            }
+        }
+    }
+}

@@ -31,8 +31,8 @@ const Nav1 = ({ navList }) => {
       {ScrollPosition <= 200 && (
         <div
           style={{
-            backgroundColor: "black",
-            color: "white",
+            backgroundColor: "transparent",
+            color: "black",
             transition: "300ms",
           }}
           className="nav1"
