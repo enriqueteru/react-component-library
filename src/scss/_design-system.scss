@@ -1,13 +1,48 @@
-$primary: rgb(10, 52, 190); 
- //base
+$primary: rgb(10, 52, 190);
+//base
 * {
-    font-family: 'Gilroy', sans-serif;
+    font-family: "Gilroy", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
+@mixin flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+}
+
+.strong{
+    font-weight: 600 !important;
+}
+
+.h2 {
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 46px;
+   
+}
+.h3 {
+    margin: 25px 0 0 0 ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+.h5 {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 5px;
+    line-height: 26px;
+}
+.p {
+    margin: 5px 0 ;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+}
 
 //units
 $unit: 5px;
@@ -20,7 +55,6 @@ $unit8: 5px * 8;
 $unit4: 5px * 9;
 $unit9: 5px * 9;
 $unit10: 5px * 10;
-
 
 // MARGIND AND PADDINGS
 .mt-1 {
@@ -54,7 +88,6 @@ $unit10: 5px * 10;
     margin-top: $unit10;
 }
 
-
 .mb-1 {
     margin-bottom: $unit;
 }
@@ -85,8 +118,6 @@ $unit10: 5px * 10;
 .mb-10 {
     margin-bottom: $unit10;
 }
-
-
 
 .mt-1 {
     margin-top: $unit;
@@ -119,8 +150,6 @@ $unit10: 5px * 10;
     margin-top: $unit10;
 }
 
-
-
 .pt-1 {
     padding-top: $unit;
 }
@@ -152,7 +181,6 @@ $unit10: 5px * 10;
     padding-top: $unit10;
 }
 
-
 .pb-1 {
     padding-bottom: $unit;
 }
@@ -183,5 +211,3 @@ $unit10: 5px * 10;
 .pb-10 {
     padding-bottom: $unit10;
 }
-
-

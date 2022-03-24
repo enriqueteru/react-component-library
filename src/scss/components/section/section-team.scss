@@ -1,0 +1,48 @@
+.section-team {
+    height: auto;
+    padding: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    &__span {
+        color: $primary;
+        font-weight: 600;
+    }
+
+    &__center-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: $unit8*2;
+    }
+
+    &__two-columns {
+        gap: 1%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: $unit10*2;
+
+        &__col {
+            flex: 1 1 auto;
+        }
+    }
+
+    &__gallery{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: flex-end;
+        gap: 40px
+    }
+
+    &__line-and-text{
+        @include flexRow;
+        margin: $unit10 0 ;
+    }
+}
+

@@ -1,0 +1,27 @@
+.line-and-text{
+    @include flexRow
+}
+
+.blue-line {
+    width: 3vw;
+    height: 3px;
+    max-width: 30px;
+    margin-right: 1vw;
+    background-color: #00cfff;
+}
+.blue-line-max {
+    width: auto;
+    height: 3px;
+    margin-bottom: 0vw;
+    margin-left: 2vw;
+    flex: 1;
+    background-color: #0080ff;
+}
+
+.divider-small {
+    width: 2px;
+    height: auto;
+    margin-bottom: 0vw;
+    flex:0,01;
+    background-color: #0080ff;
+}

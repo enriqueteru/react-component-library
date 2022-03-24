@@ -5,8 +5,22 @@
 
 //COMPONENTS
 
+//BLOCK
+@import './scss/components/block/details-block.scss';
+
+//BUTTON
 @import './scss/components/button/button1';
+
+//HERO
 @import './scss/components/hero/hero1';
 @import './scss/components/hero/hero-transparent';
+
+//SECTION
+@import './scss/components/section/section1.scss';
+@import './scss/components/section/section-team.scss';
+
+//NAV
 @import './scss/components/nav/nav1';
-@import './scss/components/section/section1.scss'
+
+//UI 
+@import './scss/components/ui/lines.scss'

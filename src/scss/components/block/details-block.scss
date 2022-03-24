@@ -1,0 +1,19 @@
+.details-block {
+    position: relative;
+    height: 500px;
+    width: 220px;
+    background-color: red;
+    background-size: cover !important;
+
+    &__content{
+        position: absolute;
+        bottom: 22%;
+        left: -22%;
+
+    }
+
+    &:hover{
+        cursor:pointer
+    }
+
+}
