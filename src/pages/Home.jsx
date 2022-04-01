@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero2, Hero1, Nav1,Section1, SectionTeam } from "../components";
+import { Hero2, Hero1, Nav1, Section1, SectionTeam } from "../components";
 
 import { hero } from "../helpers/content";
 import { navList } from "../helpers/navList";
@@ -20,8 +20,6 @@ const Home = () => {
 
       <Section1 />
       <SectionTeam />
-
-
     </>
   );
 };

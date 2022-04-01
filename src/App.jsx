@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router';
 import { Components1 } from './routes';
 import './base.scss';
 import { NotFound } from './core';
-import { Home } from './pages';
+import { Home, VassTest } from './pages';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
 
      <Routes>
        <Route path='/' element={ <Home /> }/>
+       <Route path='/vass' element={<VassTest />} />
        <Route path='components-1/*' element={ <Components1 /> }/>
        <Route path='/*' element={ <NotFound />  } />
      </Routes>
