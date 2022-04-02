@@ -1,0 +1,91 @@
+.hero2 {
+    position: relative;
+    padding: 50px 100px;
+    height: 150vh;
+    width: 100%;
+    background: black url('../../../../public/assets/hero-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    overflow: hidden;
+    
+    &__bottom{
+        position: absolute;
+        bottom: 100px;
+        font-weight: 500;
+        font-size: 50px;
+        width: 50%;
+    }
+
+    &__bg{
+    position: absolute;
+    top: 80px;
+    width: 50px;
+    transition: top 1s;
+    animation: fade;
+    
+    }
+
+    &__bg-scrolled{
+        position: absolute;
+        top: -680px;
+        left: 0px;
+        width: 8000px;
+        transition: top 1s;
+        transform: rotate(348deg);
+        animation: fade;
+        filter: invert(1);
+
+    }
+
+    &__btn{
+        margin-top: 20px;
+       padding: 20px 20px;
+        width: 150px;
+        font-size: 15px;
+        background-color: #0045f6;
+        border: none;
+        color:white;
+        &:hover{
+            cursor: pointer;
+            background-color: #0130a7;
+        }
+    }
+
+    &__wrapper {
+        z-index: 10;
+        display: flex;
+        color: white;
+        &-col {
+            display: flex;
+            flex-direction: column;
+            span{
+                color: #00cfff;
+            }
+            h1, span{
+                font-weight: 700;
+                font-size: 100px;
+                line-height: 110px;
+            }
+            width: 48%;
+            margin: 50px 0;
+            height: 50vh;
+            padding: 100px 50px;
+        }
+    }
+}
+
+@keyframes fede {
+
+
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    
+    
+}

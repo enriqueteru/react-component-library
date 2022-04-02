@@ -12,7 +12,7 @@ function App() {
 
      <Routes>
        <Route path='/' element={ <Home /> }/>
-       <Route path='components-1/*' element={ <Components1 /> }/>
+       <Route path='components/*' element={ <Components1 /> }/>
        <Route path='/*' element={ <NotFound />  } />
      </Routes>
 

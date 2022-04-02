@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero2, Hero1, Nav1, Section1, SectionTeam } from "../components";
+import { Hero2, Hero1, Nav1, Section1, SectionTeam, HeroTransparent } from "../components";
 import { Footer } from "../core";
 
 import { hero } from "../helpers/content";
@@ -9,9 +9,7 @@ const Home = () => {
   return (
     <>
       <Nav1 navList={navList} />
-
-      <Hero2 />
-
+      <HeroTransparent />
       <Hero1
         title={hero.title}
         content={hero.content}
