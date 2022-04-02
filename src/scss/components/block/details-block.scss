@@ -17,3 +17,37 @@
     }
 
 }
+
+.details-block-clicked {
+    position: relative;
+    height: 500px;
+    width: 220px;
+    background-color: red;
+    background-size: cover !important;
+
+    &__content{
+        position: absolute;
+        bottom: 2%;
+        left: 3%;
+
+    }
+
+    &:hover{
+        cursor:pointer
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        border-top: 3px solid $primary;
+        position: relative;
+        padding-top: 30px;
+        height: 500px;
+        width: 220px;
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+}

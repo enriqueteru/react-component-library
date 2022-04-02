@@ -1,0 +1,97 @@
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.footer {
+    overflow: hidden;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+
+
+    &__decoration-bg-1{
+        z-index: 0;
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        width: auto;
+        height: auto;
+        width: 500px;
+        filter: opacity(0.9);
+    }
+
+    &__locations {
+        z-index: 10;
+        padding: 50px 120px;
+        width: 78%;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        &-direction{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            width:15%
+        }
+    }
+
+    &__box {
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        form {
+            margin: 30px;
+        }
+
+        &-input {
+            min-height: 45px;
+            margin-bottom: 0px;
+            width: 350px;
+            padding: 10px 20px;
+            border: none transparent;
+            -webkit-transition: border-color 300ms ease;
+            transition: border-color 300ms ease;
+            color: rgb(93, 93, 93);
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        &-btn {
+            min-height: 45px;
+            width: 120px;
+            margin-bottom: 0px;
+            border: none transparent;
+            transition: border-color 300ms ease;
+            color: white;
+            background-color: rgb(2, 49, 124);
+            font-weight: 500;
+        }
+
+        &-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $primary;
+            height: 400px;
+            width: 80%;
+
+            &-p {
+                text-align: center;
+                padding: 0 200px;
+            }
+        }
+        
+    }
+}

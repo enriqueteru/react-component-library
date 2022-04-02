@@ -1,7 +1,7 @@
 @import './scss/font';
 @import './scss/responsive';
 @import './scss/design-system';
-@import './scss/vass-test.scss';
+
 
 
 //COMPONENTS
@@ -11,6 +11,9 @@
 
 //BUTTON
 @import './scss/components/button/button1';
+
+//FOOTER
+@import './scss/components/footer/footer';
 
 //HERO
 @import './scss/components/hero/hero1';
